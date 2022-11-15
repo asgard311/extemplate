@@ -7,7 +7,7 @@ package extemplate
 import (
 	"bytes"
 	"fmt"
-	"html/template"
+	"text/template"
 	"io"
 	"io/ioutil"
 	"os"
@@ -234,3 +234,4 @@ func newTemplateFile(c []byte) (*templatefile, error) {
 
 	return tf, nil
 }
+
