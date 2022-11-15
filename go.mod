@@ -1,3 +1,3 @@
-module github.com/dannyvankooten/extemplate
+module github.com/asgard311/extemplate
 
 go 1.16
